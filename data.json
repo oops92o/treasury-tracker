@@ -1,0 +1,272 @@
+{
+  "updated_at": "2026-10-05T13:41:11+00:00",
+  "latest": {
+    "auction_date": "2026-08-13",
+    "high_yield": 5.216,
+    "bid_to_cover_ratio": 2.39,
+    "indirect_bidder_share": 53.15
+  },
+  "recent_12_avg": {
+    "bid_to_cover_ratio": 2.38,
+    "indirect_bidder_share": 54.03
+  },
+  "signals": [],
+  "history": [
+    {
+      "auction_date": "2018-11-07",
+      "high_yield": 3.418,
+      "bid_to_cover_ratio": 2.06,
+      "indirect_bidder_share": 49.0340728274,
+      "offering_amt": 19000000000,
+      "total_accepted": 22874685200
+    },
+    {
+      "auction_date": "2019-02-07",
+      "high_yield": 3.022,
+      "bid_to_cover_ratio": 2.27,
+      "indirect_bidder_share": 45.3980337901,
+      "offering_amt": 19000000000,
+      "total_accepted": 23575631600
+    },
+    {
+      "auction_date": "2019-05-09",
+      "high_yield": 2.892,
+      "bid_to_cover_ratio": 2.2,
+      "indirect_bidder_share": 45.0987860265,
+      "offering_amt": 19000000000,
+      "total_accepted": 25472499400
+    },
+    {
+      "auction_date": "2019-08-08",
+      "high_yield": 2.335,
+      "bid_to_cover_ratio": 2.24,
+      "indirect_bidder_share": 37.0979233641,
+      "offering_amt": 19000000000,
+      "total_accepted": 31398523000
+    },
+    {
+      "auction_date": "2019-11-07",
+      "high_yield": 2.43,
+      "bid_to_cover_ratio": 2.23,
+      "indirect_bidder_share": 39.8664916507,
+      "offering_amt": 19000000000,
+      "total_accepted": 27996676000
+    },
+    {
+      "auction_date": "2020-02-13",
+      "high_yield": 2.061,
+      "bid_to_cover_ratio": 2.43,
+      "indirect_bidder_share": 42.5711769699,
+      "offering_amt": 19000000000,
+      "total_accepted": 27449872500
+    },
+    {
+      "auction_date": "2020-05-13",
+      "high_yield": 1.342,
+      "bid_to_cover_ratio": 2.3,
+      "indirect_bidder_share": 42.9524554566,
+      "offering_amt": 22000000000,
+      "total_accepted": 33634677800
+    },
+    {
+      "auction_date": "2020-08-13",
+      "high_yield": 1.406,
+      "bid_to_cover_ratio": 2.14,
+      "indirect_bidder_share": 37.5053298573,
+      "offering_amt": 26000000000,
+      "total_accepted": 41463586800
+    },
+    {
+      "auction_date": "2020-11-12",
+      "high_yield": 1.68,
+      "bid_to_cover_ratio": 2.29,
+      "indirect_bidder_share": 48.5585411488,
+      "offering_amt": 27000000000,
+      "total_accepted": 34403465600
+    },
+    {
+      "auction_date": "2021-02-11",
+      "high_yield": 1.933,
+      "bid_to_cover_ratio": 2.18,
+      "indirect_bidder_share": 44.3449354002,
+      "offering_amt": 27000000000,
+      "total_accepted": 36795047400
+    },
+    {
+      "auction_date": "2021-05-13",
+      "high_yield": 2.395,
+      "bid_to_cover_ratio": 2.22,
+      "indirect_bidder_share": 39.1120537687,
+      "offering_amt": 27000000000,
+      "total_accepted": 41323641800
+    },
+    {
+      "auction_date": "2021-08-12",
+      "high_yield": 2.04,
+      "bid_to_cover_ratio": 2.21,
+      "indirect_bidder_share": 41.9376845441,
+      "offering_amt": 27000000000,
+      "total_accepted": 39045825200
+    },
+    {
+      "auction_date": "2021-11-10",
+      "high_yield": 1.94,
+      "bid_to_cover_ratio": 2.2,
+      "indirect_bidder_share": 37.3701145826,
+      "offering_amt": 25000000000,
+      "total_accepted": 39461425700
+    },
+    {
+      "auction_date": "2022-02-10",
+      "high_yield": 2.34,
+      "bid_to_cover_ratio": 2.3,
+      "indirect_bidder_share": 42.3342229321,
+      "offering_amt": 23000000000,
+      "total_accepted": 36914133100
+    },
+    {
+      "auction_date": "2022-05-12",
+      "high_yield": 2.997,
+      "bid_to_cover_ratio": 2.38,
+      "indirect_bidder_share": 40.955480986,
+      "offering_amt": 22000000000,
+      "total_accepted": 37396398800
+    },
+    {
+      "auction_date": "2022-08-11",
+      "high_yield": 3.106,
+      "bid_to_cover_ratio": 2.31,
+      "indirect_bidder_share": 43.2590929972,
+      "offering_amt": 21000000000,
+      "total_accepted": 34282158900
+    },
+    {
+      "auction_date": "2022-11-10",
+      "high_yield": 4.08,
+      "bid_to_cover_ratio": 2.42,
+      "indirect_bidder_share": 51.6849819558,
+      "offering_amt": 21000000000,
+      "total_accepted": 28364253300
+    },
+    {
+      "auction_date": "2023-02-09",
+      "high_yield": 3.686,
+      "bid_to_cover_ratio": 2.25,
+      "indirect_bidder_share": 46.8501854273,
+      "offering_amt": 21000000000,
+      "total_accepted": 29206565300
+    },
+    {
+      "auction_date": "2023-05-11",
+      "high_yield": 3.741,
+      "bid_to_cover_ratio": 2.43,
+      "indirect_bidder_share": 56.847935283,
+      "offering_amt": 21000000000,
+      "total_accepted": 26721295900
+    },
+    {
+      "auction_date": "2023-08-10",
+      "high_yield": 4.189,
+      "bid_to_cover_ratio": 2.42,
+      "indirect_bidder_share": 49.2677042167,
+      "offering_amt": 23000000000,
+      "total_accepted": 31604606400
+    },
+    {
+      "auction_date": "2023-11-09",
+      "high_yield": 4.769,
+      "bid_to_cover_ratio": 2.24,
+      "indirect_bidder_share": 58.7649231506,
+      "offering_amt": 24000000000,
+      "total_accepted": 24456732400
+    },
+    {
+      "auction_date": "2024-02-08",
+      "high_yield": 4.36,
+      "bid_to_cover_ratio": 2.4,
+      "indirect_bidder_share": 65.6946446261,
+      "offering_amt": 25000000000,
+      "total_accepted": 26848948800
+    },
+    {
+      "auction_date": "2024-05-09",
+      "high_yield": 4.635,
+      "bid_to_cover_ratio": 2.41,
+      "indirect_bidder_share": 57.5522392757,
+      "offering_amt": 25000000000,
+      "total_accepted": 28142249900
+    },
+    {
+      "auction_date": "2024-08-08",
+      "high_yield": 4.314,
+      "bid_to_cover_ratio": 2.31,
+      "indirect_bidder_share": 54.7518295857,
+      "offering_amt": 25000000000,
+      "total_accepted": 29754413000
+    },
+    {
+      "auction_date": "2024-11-06",
+      "high_yield": 4.608,
+      "bid_to_cover_ratio": 2.64,
+      "indirect_bidder_share": 50.3575248156,
+      "offering_amt": 25000000000,
+      "total_accepted": 31075745000
+    },
+    {
+      "auction_date": "2025-02-13",
+      "high_yield": 4.748,
+      "bid_to_cover_ratio": 2.33,
+      "indirect_bidder_share": 50.9645824686,
+      "offering_amt": 25000000000,
+      "total_accepted": 31867850600
+    },
+    {
+      "auction_date": "2025-05-08",
+      "high_yield": 4.819,
+      "bid_to_cover_ratio": 2.31,
+      "indirect_bidder_share": 43.3692793049,
+      "offering_amt": 25000000000,
+      "total_accepted": 33824847300
+    },
+    {
+      "auction_date": "2025-08-07",
+      "high_yield": 4.813,
+      "bid_to_cover_ratio": 2.27,
+      "indirect_bidder_share": 44.3672560781,
+      "offering_amt": 25000000000,
+      "total_accepted": 33484349300
+    },
+    {
+      "auction_date": "2025-11-13",
+      "high_yield": 4.694,
+      "bid_to_cover_ratio": 2.29,
+      "indirect_bidder_share": 61.2900949283,
+      "offering_amt": 25000000000,
+      "total_accepted": 28893800900
+    },
+    {
+      "auction_date": "2026-02-12",
+      "high_yield": 4.75,
+      "bid_to_cover_ratio": 2.66,
+      "indirect_bidder_share": 54.414469758,
+      "offering_amt": 25000000000,
+      "total_accepted": 32083920100
+    },
+    {
+      "auction_date": "2026-05-13",
+      "high_yield": 5.046,
+      "bid_to_cover_ratio": 2.3,
+      "indirect_bidder_share": 53.6903049604,
+      "offering_amt": 25000000000,
+      "total_accepted": 30936165500
+    },
+    {
+      "auction_date": "2026-08-13",
+      "high_yield": 5.216,
+      "bid_to_cover_ratio": 2.39,
+      "indirect_bidder_share": 53.147652836,
+      "offering_amt": 25000000000,
+      "total_accepted": 31323533800
+    }
+  ]
+}
