@@ -4,8 +4,13 @@
 공식 문서: https://fiscaldata.treasury.gov/api-documentation/
 """
 
+import json
+from datetime import datetime, timezone
+
 import requests
 import pandas as pd
+
+OUTPUT_FILE = "data.json"
 
 BASE_URL = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query"
 
@@ -80,3 +85,30 @@ if __name__ == "__main__":
         signals.append("해외(간접입찰) 수요 평균 대비 강함")
 
     print("→ " + (", ".join(signals) if signals else "평균 수준의 수요, 특이 신호 없음"))
+
+    save_cols = ["auction_date", "high_yield", "bid_to_cover_ratio", "indirect_bidder_share",
+                 "offering_amt", "total_accepted"]
+    history = df[save_cols].copy()
+    history["auction_date"] = history["auction_date"].dt.strftime("%Y-%m-%d")
+    # to_json 을 거치면 빈 값(NaN)이 JSON 에서 쓸 수 있는 null 로 바뀐다
+    history_records = json.loads(history.to_json(orient="records"))
+
+    result = {
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "latest": {
+            "auction_date": latest["auction_date"].strftime("%Y-%m-%d"),
+            "high_yield": float(latest["high_yield"]),
+            "bid_to_cover_ratio": float(latest["bid_to_cover_ratio"]),
+            "indirect_bidder_share": round(float(latest["indirect_bidder_share"]), 2),
+        },
+        "recent_12_avg": {
+            "bid_to_cover_ratio": round(float(avg_btc), 2),
+            "indirect_bidder_share": round(float(avg_indirect), 2),
+        },
+        "signals": signals,
+        "history": history_records,
+    }
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+    print(f"\n결과를 {OUTPUT_FILE} 에 저장했습니다.")

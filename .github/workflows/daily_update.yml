@@ -1,9 +1,12 @@
-name: 연기금 데이터 업데이트
+name: 30년물 국채 입찰 데이터 업데이트
 
 on:
   schedule:
     - cron: "0 9 * * 1-5"   # 평일 UTC 09:00 = 한국시간 18:00
   workflow_dispatch:         # 깃허브 화면에서 수동 실행 버튼도 생김
+
+permissions:
+  contents: write            # 워크플로가 data.json 을 커밋하고 push 할 수 있게 허용
 
 jobs:
   update:
@@ -16,15 +19,15 @@ jobs:
           python-version: "3.11"
 
       - name: 라이브러리 설치
-        run: pip install pykrx
+        run: pip install requests pandas
 
       - name: 데이터 수집
-        run: python fetch_pension_data.py
+        run: python treasury_30y_auction_tracker.py
 
       - name: 결과 커밋
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data.json
-          git commit -m "연기금 데이터 업데이트" || echo "변경 없음"
+          git commit -m "30년물 국채 입찰 데이터 업데이트" || echo "변경 없음"
           git push
